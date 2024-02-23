@@ -1,0 +1,62 @@
+body {background-color: rgb(189, 136, 169);}
+
+h1, h2, h3{
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    width: 725px;
+    height: 50px;
+    background-color: white;
+    outline: 2px solid rgb(255, 0, 157);
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pianoButton {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    background-color: white;
+    outline: 2px solid black;
+    color: black;
+    height: 300px;
+    width: 75px;
+
+}
+
+.black {
+    background-color: black;
+    outline: 2px solid black;
+    color: antiquewhite;
+    height: 200px;
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.gameOver {
+    background-color: darkred;
+}

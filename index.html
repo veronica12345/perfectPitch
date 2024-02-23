@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Makes Perfect</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="centered">
+            <h1>♪ Practice Makes Perfect! (Pitch) ♪</h1>
+            <h2>Select the correct note based on the sound, within three tries</h2>
+        
+        
+            <button type="button" class="btn">Press this button to hear a note</button>
+        <br>
+        <br>
+        <div class="container" id="piano">
+            <div type="button" id="c" class="pianoButton white">C</div>
+            <div type="button" id="cSharp" class="pianoButton black">C#</div>
+            <div type="button" id="d" class="pianoButton white">D</div>
+            <div type="button" id="dSharp" class="pianoButton black">D#</div>
+            <div type="button" id="e" class="pianoButton white">E</div>
+            <div type="button" id="f" class="pianoButton white">F</div>
+            <div type="button" id="fSharp" class="pianoButton black">F#</div>
+            <div type="button" id="g" class="pianoButton white">G</div>
+            <div type="button" id="gSharp" class="pianoButton black">G#</div>
+            <div type="button" id="a" class="pianoButton white">A</div>
+            <div type="button" id="aSharp" class="pianoButton black">A#</div>
+            <div type="button" id="b" class="pianoButton white">B</div>
+        </div>
+
+        <h3>Hint: don't spam keys because the audio will just be delayed and overlap...I'm not sure how to fix this yet</h3>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.0/dist/confetti.browser.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>

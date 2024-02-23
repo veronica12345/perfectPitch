@@ -1,0 +1,14 @@
+{
+  "name": "perfectpitch",
+  "version": "1.0.0",
+  "description": "confetti",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Veronica",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-confetti": "^1.9.0"
+  }
+}
